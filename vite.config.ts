@@ -14,8 +14,23 @@ export default defineConfig({
   // GitHub Project Pages URL is /<repo-name>/; must match the GitHub repo slug exactly.
   vite: {
     base: "/the-creative-seam/",
+    // @cloudflare/vite-plugin emits the worker entry as `index.js`; TanStack Start's
+    // prerender preview step loads `${serverOutDir}/server.js` when it cannot read a string `input`.
+    environments: {
+      ssr: {
+        build: {
+          rollupOptions: {
+            output: { entryFileNames: "server.js" },
+          },
+        },
+      },
+    },
   },
   tanstackStart: {
     server: { entry: "server" },
+    // Match `createRouter({ basepath })` so prerender + assets use the same base as GitHub Project Pages.
+    router: { basepath: "/the-creative-seam" },
+    // TanStack Start does not emit static HTML unless prerender runs (SSR is the default).
+    prerender: { enabled: true },
   },
 });

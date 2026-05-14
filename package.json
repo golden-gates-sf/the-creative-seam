@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "build:dev": "vite build --mode development",
-    "deploy": "vite build --outDir docs",
-    "preview": "vite preview",
+    "build": "CI=true vite build",
+    "build:dev": "CI=true vite build --mode development",
+    "deploy": "CI=true vite build --outDir docs && cp -R docs/client/. docs/ && rm -rf docs/client",
+    "preview": "CI=true vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
