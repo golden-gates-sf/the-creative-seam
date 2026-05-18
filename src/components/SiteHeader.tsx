@@ -16,9 +16,9 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border/60">
-      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 h-20 flex items-center justify-between">
+      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 h-24 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <Logo className="h-12" />
+          <Logo className="h-16 md:h-[4.5rem]" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
