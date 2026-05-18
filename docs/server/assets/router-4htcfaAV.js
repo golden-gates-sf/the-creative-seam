@@ -1,4 +1,4 @@
-import { r as reactExports, f as functionalUpdate$1, a as arraysEqual, c as createLRUCache, i as isPromise, b as isRedirect, d as isNotFound, e as invariant, g as createControlledPromise, h as rootRouteId, j as isServer$1, k as compileDecodeCharMap, t as trimPath, l as rewriteBasepath, m as composeRewrites, p as processRouteTree, n as processRouteMasks, o as resolvePath, q as cleanPath, s as trimPathRight, u as parseHref, v as executeRewriteInput, w as isDangerousProtocol, x as redirect, y as findSingleMatch, z as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, A as buildRouteBranch, B as interpolatePath, C as nullReplaceEqualDeep, E as replaceEqualDeep$1, F as last, G as decodePath, H as findFlatMatch, I as findRouteMatch, J as hasKeys, K as executeRewriteOutput, L as encodePathLikeUrl, M as trimPathLeft, N as joinPaths, O as useRouter, P as dummyMatchContext, Q as matchContext, R as requireReactDom, S as exactPathTest, T as removeTrailingSlash, U as React, V as jsxRuntimeExports, W as isModuleNotFoundError, X as useHydrated, Y as escapeHtml, Z as isInlinableStylesheet, _ as getAssetCrossOrigin, $ as resolveManifestAssetLink, a0 as Outlet, a1 as notFound } from "./server-BT15Wj55.js";
+import { r as reactExports, f as functionalUpdate$1, a as arraysEqual, c as createLRUCache, i as isPromise, b as isRedirect, d as isNotFound, e as invariant, g as createControlledPromise, h as rootRouteId, j as isServer$1, k as compileDecodeCharMap, t as trimPath, l as rewriteBasepath, m as composeRewrites, p as processRouteTree, n as processRouteMasks, o as resolvePath, q as cleanPath, s as trimPathRight, u as parseHref, v as executeRewriteInput, w as isDangerousProtocol, x as redirect, y as findSingleMatch, z as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, A as buildRouteBranch, B as interpolatePath, C as nullReplaceEqualDeep, E as replaceEqualDeep$1, F as last, G as decodePath, H as findFlatMatch, I as findRouteMatch, J as hasKeys, K as executeRewriteOutput, L as encodePathLikeUrl, M as trimPathLeft, N as joinPaths, O as useRouter, P as dummyMatchContext, Q as matchContext, R as requireReactDom, S as exactPathTest, T as removeTrailingSlash, U as React, V as jsxRuntimeExports, W as isModuleNotFoundError, X as useHydrated, Y as escapeHtml, Z as isInlinableStylesheet, _ as getAssetCrossOrigin, $ as resolveManifestAssetLink, a0 as Outlet, a1 as notFound } from "./server-ClCjDNPA.js";
 var reactUse = reactExports.use;
 function useForwardedRef(ref) {
   const innerRef = reactExports.useRef(null);
@@ -4660,7 +4660,7 @@ var QueryClientProvider = ({
   }, [client]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientContext.Provider, { value: client, children });
 };
-const appCss = "/the-creative-seam/assets/styles-CuElzMaQ.css";
+const appCss = "/the-creative-seam/assets/styles-BK3b9xjR.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -4744,7 +4744,7 @@ function RootComponent() {
   const { queryClient } = Route$6.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter$5 = () => import("./messages-B8LPNWuD.js");
+const $$splitComponentImporter$5 = () => import("./messages-JdKzKiLn.js");
 const Route$5 = createFileRoute("/messages")({
   head: () => ({
     meta: [{
@@ -4756,7 +4756,7 @@ const Route$5 = createFileRoute("/messages")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./marketplace-BOWkxLlg.js");
+const $$splitComponentImporter$4 = () => import("./marketplace-oLirO3dU.js");
 const Route$4 = createFileRoute("/marketplace")({
   head: () => ({
     meta: [{
@@ -4774,7 +4774,7 @@ const Route$4 = createFileRoute("/marketplace")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./dashboard-YuqVbdLZ.js");
+const $$splitComponentImporter$3 = () => import("./dashboard-CpvEMQgV.js");
 const Route$3 = createFileRoute("/dashboard")({
   head: () => ({
     meta: [{
@@ -4786,7 +4786,7 @@ const Route$3 = createFileRoute("/dashboard")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./index-DGueuj9y.js");
+const $$splitComponentImporter$2 = () => import("./index-N8J4cQZG.js");
 const Route$2 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -4900,9 +4900,9 @@ const professionals = [
     portfolio: [port4, port2, port1, port3]
   }
 ];
-const $$splitComponentImporter$1 = () => import("./professionals._id-DJYARDPZ.js");
-const $$splitErrorComponentImporter = () => import("./professionals._id-Bt6N0KUk.js");
-const $$splitNotFoundComponentImporter = () => import("./professionals._id-BnVZZ5Fn.js");
+const $$splitComponentImporter$1 = () => import("./professionals._id-D3AnF3oq.js");
+const $$splitErrorComponentImporter = () => import("./professionals._id-nS2THa2_.js");
+const $$splitNotFoundComponentImporter = () => import("./professionals._id-Cii7ptHT.js");
 const Route$1 = createFileRoute("/professionals/$id")({
   loader: ({
     params
@@ -4938,7 +4938,7 @@ const Route$1 = createFileRoute("/professionals/$id")({
   errorComponent: lazyRouteComponent($$splitErrorComponentImporter, "errorComponent"),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./campaigns.new-BKnrROsH.js");
+const $$splitComponentImporter = () => import("./campaigns.new-4WyHinvt.js");
 const Route2 = createFileRoute("/campaigns/new")({
   head: () => ({
     meta: [{

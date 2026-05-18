@@ -1,6 +1,6 @@
-import { V as jsxRuntimeExports } from "./server-BT15Wj55.js";
-import { L as Link } from "./router-BNDoerDG.js";
-import { L as Logo } from "./SiteHeader-iKbCTacx.js";
+import { V as jsxRuntimeExports } from "./server-ClCjDNPA.js";
+import { L as Link } from "./router-4htcfaAV.js";
+import { L as Logo } from "./SiteHeader-DczoZzCP.js";
 function SiteFooter() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "border-t border-border/60 mt-32", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 py-20 grid gap-14 md:grid-cols-12", children: [

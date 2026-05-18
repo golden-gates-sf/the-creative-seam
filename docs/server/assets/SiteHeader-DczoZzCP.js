@@ -1,5 +1,5 @@
-import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-BT15Wj55.js";
-import { L as Link } from "./router-BNDoerDG.js";
+import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-ClCjDNPA.js";
+import { L as Link } from "./router-4htcfaAV.js";
 function useLocation(opts) {
   const router = useRouter();
   {
@@ -7,7 +7,7 @@ function useLocation(opts) {
     return location;
   }
 }
-const logo = "/the-creative-seam/assets/theseam-logo-Efqt_Nlb.png";
+const logo = "/the-creative-seam/assets/theseam-logo-CVc74arC.png";
 function Logo({ className = "h-10" }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(
     "img",
@@ -110,15 +110,15 @@ const X = createLucideIcon("x", __iconNode);
 const links = [
   { to: "/marketplace", label: "Find a Professional" },
   { to: "/campaigns/new", label: "Projects" },
-  { to: "/messages", label: "Support" },
+  { to: "/messages", label: "Inbox" },
   { to: "/dashboard", label: "My Profile" }
 ];
 function SiteHeader() {
   const { pathname } = useLocation();
   const [open, setOpen] = reactExports.useState(false);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border/60", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 h-20 flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center gap-3", onClick: () => setOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Logo, { className: "h-12" }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 h-24 flex items-center justify-between", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center gap-3", onClick: () => setOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Logo, { className: "h-16 md:h-[4.5rem]" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex items-center gap-10", children: links.map((l) => {
         const active = pathname === l.to || pathname.startsWith(l.to);
         return /* @__PURE__ */ jsxRuntimeExports.jsxs(
