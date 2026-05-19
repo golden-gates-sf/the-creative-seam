@@ -2,7 +2,6 @@ import { Link, useLocation } from "@tanstack/react-router";
 import { Logo } from "./Logo";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/marketplace", label: "Find a Professional" },
@@ -29,11 +28,8 @@ export function SiteHeader() {
               <Link
                 key={l.to}
                 to={l.to}
-                className={cn(
-                  "label-tiny rounded-sm px-3 py-2 transition-colors",
-                  "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
-                  active && "bg-accent text-accent-foreground",
-                )}
+                className="nav-link"
+                aria-current={active ? "page" : undefined}
               >
                 {l.label}
               </Link>
@@ -64,11 +60,8 @@ export function SiteHeader() {
                   key={l.to}
                   to={l.to}
                   onClick={() => setOpen(false)}
-                  className={cn(
-                    "label-tiny rounded-sm px-3 py-2 transition-colors",
-                    "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
-                    active && "bg-accent text-accent-foreground",
-                  )}
+                  className="nav-link"
+                  aria-current={active ? "page" : undefined}
                 >
                   {l.label}
                 </Link>
