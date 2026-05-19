@@ -1,5 +1,5 @@
-import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-ClCjDNPA.js";
-import { L as Link } from "./router-4htcfaAV.js";
+import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-CiDKfmU7.js";
+import { L as Link } from "./router-BN99Rwot.js";
 function useLocation(opts) {
   const router = useRouter();
   {
@@ -118,19 +118,16 @@ function SiteHeader() {
   const [open, setOpen] = reactExports.useState(false);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border/60", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 h-24 flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center gap-3", onClick: () => setOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Logo, { className: "h-16 md:h-[4.5rem]" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "flex items-center gap-3", onClick: () => setOpen(false), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Logo, { className: "h-22 md:h-[5.5rem] pt-1" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex items-center gap-10", children: links.map((l) => {
         const active = pathname === l.to || pathname.startsWith(l.to);
-        return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        return /* @__PURE__ */ jsxRuntimeExports.jsx(
           Link,
           {
             to: l.to,
-            className: "label-tiny relative py-1 transition-colors hover:text-foreground",
-            style: { color: active ? "var(--foreground)" : "var(--muted-foreground)" },
-            children: [
-              l.label,
-              active && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "stitch-line absolute -bottom-1 left-0 right-0" })
-            ]
+            className: "nav-link",
+            "aria-current": active ? "page" : void 0,
+            children: l.label
           },
           l.to
         );
@@ -147,16 +144,20 @@ function SiteHeader() {
       )
     ] }),
     open && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:hidden border-t border-border/60 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "px-6 py-6 flex flex-col gap-5", children: [
-      links.map((l) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-        Link,
-        {
-          to: l.to,
-          onClick: () => setOpen(false),
-          className: "label-tiny",
-          children: l.label
-        },
-        l.to
-      )),
+      links.map((l) => {
+        const active = pathname === l.to || pathname.startsWith(l.to);
+        return /* @__PURE__ */ jsxRuntimeExports.jsx(
+          Link,
+          {
+            to: l.to,
+            onClick: () => setOpen(false),
+            className: "nav-link",
+            "aria-current": active ? "page" : void 0,
+            children: l.label
+          },
+          l.to
+        );
+      }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/marketplace", onClick: () => setOpen(false), className: "btn-primary mt-2", children: "Get Started" })
     ] }) })
   ] });
