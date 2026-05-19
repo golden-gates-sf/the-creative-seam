@@ -2,6 +2,7 @@ import { Link, useLocation } from "@tanstack/react-router";
 import { Logo } from "./Logo";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/marketplace", label: "Find a Professional" },
@@ -28,13 +29,13 @@ export function SiteHeader() {
               <Link
                 key={l.to}
                 to={l.to}
-                className="label-tiny relative py-1 transition-colors hover:text-foreground"
-                style={{ color: active ? "var(--foreground)" : "var(--muted-foreground)" }}
+                className={cn(
+                  "label-tiny rounded-sm px-3 py-2 transition-colors",
+                  "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+                  active && "bg-accent text-accent-foreground",
+                )}
               >
                 {l.label}
-                {active && (
-                  <span className="stitch-line absolute -bottom-1 left-0 right-0" />
-                )}
               </Link>
             );
           })}
@@ -56,16 +57,23 @@ export function SiteHeader() {
       {open && (
         <div className="md:hidden border-t border-border/60 bg-background">
           <div className="px-6 py-6 flex flex-col gap-5">
-            {links.map((l) => (
-              <Link
-                key={l.to}
-                to={l.to}
-                onClick={() => setOpen(false)}
-                className="label-tiny"
-              >
-                {l.label}
-              </Link>
-            ))}
+            {links.map((l) => {
+              const active = pathname === l.to || pathname.startsWith(l.to);
+              return (
+                <Link
+                  key={l.to}
+                  to={l.to}
+                  onClick={() => setOpen(false)}
+                  className={cn(
+                    "label-tiny rounded-sm px-3 py-2 transition-colors",
+                    "text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+                    active && "bg-accent text-accent-foreground",
+                  )}
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
             <Link to="/marketplace" onClick={() => setOpen(false)} className="btn-primary mt-2">
               Get Started
             </Link>
