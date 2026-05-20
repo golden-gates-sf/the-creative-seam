@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { ProfileCard } from "@/components/ProfileCard";
 import { professionals } from "@/data/professionals";
 import { ArrowRight, Search, Sparkles, Globe2, Zap } from "lucide-react";
-import hero1 from "@/assets/hero-1.jpg";
+import logo from "@/assets/theseam-logo.png";
 import hero2 from "@/assets/hero-2.jpg";
 
 export const Route = createFileRoute("/")({
@@ -37,10 +37,10 @@ function Index() {
       <main className="flex-1">
         {/* HERO */}
         <section className="relative">
-          <div className="mx-auto max-w-[1440px] px-6 lg:px-12 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-12 items-end">
+          <div className="mx-auto max-w-[1440px] px-6 lg:px-12 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-12 items-top">
             <div className="lg:col-span-7 space-y-10 fade-up">
               <p className="label-eyebrow">Estd 2026 — A new kind of network</p>
-              <h1 className="font-display text-[14vw] sm:text-[10vw] lg:text-[7.5rem] xl:text-[8.5rem] leading-[0.9] tracking-tight">
+              <h1 className="text-[10vw] sm:text-[8vw] lg:text-[5.5rem] xl:text-[6.5rem] leading-[0.9] tracking-tight">
                 Agency-quality<br />
                 content.<br />
                 <span className="relative inline-block">
@@ -72,16 +72,16 @@ function Index() {
             </div>
 
             <div className="lg:col-span-5 relative">
-              <div className="img-zoom aspect-[4/5] bg-secondary">
+              <div className="img-zoom">
                 <img
-                  src={hero1}
+                  src={logo}
                   alt="Editorial fashion portrait"
                   width={1080}
                   height={1350}
                   className="size-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 hidden md:block bg-background border border-foreground p-5 max-w-[220px]">
+              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 hidden md:block bg-background border border-foreground p-5 max-w-[220px]">
                 <p className="label-eyebrow">Live now</p>
                 <p className="font-display text-3xl mt-2 leading-none">2,481</p>
                 <p className="label-tiny text-muted-foreground mt-1">creatives in 38 cities</p>
