@@ -1,9 +1,9 @@
-import { V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { R as Route, L as Link } from "./router-BN99Rwot.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-BGCOo_pn.js";
-import { S as SiteFooter } from "./SiteFooter-CLqNiYHv.js";
-import { R as RatingBadge } from "./RatingBadge-DEAohWAX.js";
-import { S as Send } from "./send-8jgGmc8N.js";
+import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { R as Route, L as Link } from "./router-SgH2OmHM.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
+import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
+import { R as RatingBadge } from "./RatingBadge-DR_f1u3O.js";
+import { S as Send } from "./send-3Dtf5-c2.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
@@ -62,7 +62,7 @@ function ProfilePage() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-6 space-y-10", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: p.role }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-6xl lg:text-7xl leading-[0.95] mt-4", children: p.name }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl lg:text-7xl leading-[0.95] mt-4", children: p.name }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-6 flex flex-wrap items-center gap-x-6 gap-y-3", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(RatingBadge, { rating: p.rating, reviews: p.reviews, size: "md" }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-1.5 text-sm text-muted-foreground", children: [

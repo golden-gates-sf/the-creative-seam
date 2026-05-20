@@ -1,10 +1,10 @@
-import { r as reactExports, V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-BGCOo_pn.js";
-import { S as SiteFooter } from "./SiteFooter-CLqNiYHv.js";
+import { r as reactExports, V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
+import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./router-BN99Rwot.js";
+import "./router-SgH2OmHM.js";
 const __iconNode$2 = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
 const Check = createLucideIcon("check", __iconNode$2);
 const __iconNode$1 = [
@@ -27,7 +27,7 @@ function NewCampaign() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "flex-1 mx-auto max-w-[1280px] px-6 lg:px-12 py-16 w-full", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-14", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Campaign builder" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-6xl md:text-8xl mt-3 leading-[0.9]", children: "Brief a project." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl md:text-8xl mt-3 leading-[0.9]", children: "Brief a project." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("ol", { className: "flex items-center justify-center gap-3 md:gap-5 mb-16", children: STEPS.map((s, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-center gap-3", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { onClick: () => setStep(i), className: "flex items-center gap-3 group", children: [

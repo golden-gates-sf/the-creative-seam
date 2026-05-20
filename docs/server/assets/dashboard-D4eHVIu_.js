@@ -1,7 +1,7 @@
-import { V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { L as Link, p as professionals } from "./router-BN99Rwot.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-BGCOo_pn.js";
-import { S as SiteFooter } from "./SiteFooter-CLqNiYHv.js";
+import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { L as Link, p as professionals } from "./router-SgH2OmHM.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
+import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
@@ -23,7 +23,7 @@ function Dashboard() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-end justify-between mb-12 gap-6 flex-wrap", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Studio · Brand" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-6xl lg:text-7xl mt-3 leading-[0.95]", children: "Good morning, Atelier." })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-6xl lg:text-7xl mt-3 leading-[0.95]", children: "Good morning, Atelier." })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/campaigns/new", className: "btn-primary", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Plus, { className: "size-3.5" }),

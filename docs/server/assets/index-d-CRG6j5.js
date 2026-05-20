@@ -1,13 +1,13 @@
-import { V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { L as Link, p as professionals } from "./router-BN99Rwot.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-BGCOo_pn.js";
-import { S as SiteFooter } from "./SiteFooter-CLqNiYHv.js";
-import { P as ProfileCard } from "./ProfileCard-P5B2cfll.js";
-import { S as Search } from "./search-DzGTBsDn.js";
+import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { L as Link, p as professionals } from "./router-SgH2OmHM.js";
+import { c as createLucideIcon, S as SiteHeader, l as logo } from "./SiteHeader-npx5tSz-.js";
+import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
+import { P as ProfileCard } from "./ProfileCard-Mo9z0dWP.js";
+import { S as Search } from "./search-Bf5aytNj.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./RatingBadge-DEAohWAX.js";
+import "./RatingBadge-DR_f1u3O.js";
 const __iconNode$3 = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
@@ -49,17 +49,16 @@ const __iconNode = [
   ]
 ];
 const Zap = createLucideIcon("zap", __iconNode);
-const hero1 = "/the-creative-seam/assets/hero-1-BphI9dHR.jpg";
 const hero2 = "/the-creative-seam/assets/hero-2-CY2px7Xz.jpg";
 function Index() {
   const featured = professionals.slice(0, 4);
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen flex flex-col", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(SiteHeader, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "flex-1", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "relative", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-12 items-end", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-7 space-y-10 fade-up", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "relative", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 pt-16 pb-24 lg:pt-24 lg:pb-32 flex flex-col items-center gap-16 lg:gap-20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-full max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto text-center space-y-10 fade-up", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Estd 2026 — A new kind of network" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "font-display text-[14vw] sm:text-[10vw] lg:text-[7.5rem] xl:text-[8.5rem] leading-[0.9] tracking-tight", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "font-petit-cochon text-[10vw] sm:text-[8vw] lg:text-[5.5rem] xl:text-[6.5rem] leading-[0.9] tracking-tight", children: [
             "Agency-quality",
             /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
             "content.",
@@ -71,8 +70,8 @@ function Index() {
             " ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("em", { className: "not-italic", children: "cost." })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "max-w-xl text-base leading-relaxed text-muted-foreground", children: "The Seam is a curated marketplace pairing emerging brands with photographers, models, stylists, MUAs, influencers and location scouts — direct, transparent, editorial." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-xl", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto max-w-2xl text-base leading-relaxed text-muted-foreground", children: "The Seam is a curated marketplace pairing emerging brands with photographers, models, stylists, MUAs, influencers and location scouts — direct, transparent, editorial." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "w-full max-w-2xl lg:max-w-3xl mx-auto", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { className: "editorial-search", onSubmit: (e) => e.preventDefault(), children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Search, { className: "size-4 text-muted-foreground" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("input", { placeholder: "Search photographers, models, stylists…" }),
@@ -81,12 +80,12 @@ function Index() {
                 /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "size-3.5" })
               ] })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-5 flex flex-wrap gap-2", children: ["Photographer", "Model", "Stylist", "MUA", "Influencer"].map((t) => /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/marketplace", className: "filter-pill", children: t }, t)) })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-5 flex flex-wrap justify-center gap-2", children: ["Photographer", "Model", "Stylist", "MUA", "Influencer"].map((t) => /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/marketplace", className: "filter-pill", children: t }, t)) })
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "lg:col-span-5 relative", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "img-zoom aspect-[4/5] bg-secondary", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: hero1, alt: "Editorial fashion portrait", width: 1080, height: 1350, className: "size-full object-cover" }) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-6 -left-6 hidden md:block bg-background border border-foreground p-5 max-w-[220px]", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-full max-w-sm md:max-w-md lg:max-w-lg", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "img-zoom", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logo, alt: "Editorial fashion portrait", width: 1080, height: 1350, className: "size-full object-cover" }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-6 left-1/2 -translate-x-1/2 hidden md:block bg-background border border-foreground p-5 max-w-[220px]", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Live now" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-3xl mt-2 leading-none", children: "2,481" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-tiny text-muted-foreground mt-1", children: "creatives in 38 cities" })
