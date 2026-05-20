@@ -1,13 +1,13 @@
-import { r as reactExports, V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-BGCOo_pn.js";
-import { S as SiteFooter } from "./SiteFooter-CLqNiYHv.js";
-import { P as ProfileCard } from "./ProfileCard-P5B2cfll.js";
-import { p as professionals } from "./router-BN99Rwot.js";
-import { S as Search } from "./search-DzGTBsDn.js";
+import { r as reactExports, V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
+import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
+import { P as ProfileCard } from "./ProfileCard-Mo9z0dWP.js";
+import { p as professionals } from "./router-SgH2OmHM.js";
+import { S as Search } from "./search-Bf5aytNj.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./RatingBadge-DEAohWAX.js";
+import "./RatingBadge-DR_f1u3O.js";
 const __iconNode = [
   ["path", { d: "M10 5H3", key: "1qgfaw" }],
   ["path", { d: "M12 19H3", key: "yhmn1j" }],
@@ -41,7 +41,7 @@ function Marketplace() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "flex-1", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 pt-20 pb-12 text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "The Marketplace" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-7xl md:text-9xl mt-5 leading-[0.9]", children: "I'm a brand." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl md:text-9xl mt-5 leading-[0.9]", children: "I'm a brand." }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 max-w-xl mx-auto text-muted-foreground", children: "Cast a complete creative team in an afternoon. Verified talent, transparent pricing, response in hours." }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { onSubmit: (e) => e.preventDefault(), className: "mt-10 max-w-2xl mx-auto editorial-search", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Search, { className: "size-4 text-muted-foreground" }),

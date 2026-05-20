@@ -1,6 +1,6 @@
-import { V as jsxRuntimeExports } from "./server-CiDKfmU7.js";
-import { L as Link } from "./router-BN99Rwot.js";
-import { R as RatingBadge } from "./RatingBadge-DEAohWAX.js";
+import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
+import { L as Link } from "./router-SgH2OmHM.js";
+import { R as RatingBadge } from "./RatingBadge-DR_f1u3O.js";
 function ProfileCard({ p }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
     Link,

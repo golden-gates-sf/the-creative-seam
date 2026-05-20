@@ -1,5 +1,5 @@
-import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-CiDKfmU7.js";
-import { L as Link } from "./router-BN99Rwot.js";
+import { O as useRouter, V as jsxRuntimeExports, r as reactExports } from "./server-B4kp0_TF.js";
+import { L as Link } from "./router-SgH2OmHM.js";
 function useLocation(opts) {
   const router = useRouter();
   {
@@ -165,5 +165,6 @@ function SiteHeader() {
 export {
   Logo as L,
   SiteHeader as S,
-  createLucideIcon as c
+  createLucideIcon as c,
+  logo as l
 };
