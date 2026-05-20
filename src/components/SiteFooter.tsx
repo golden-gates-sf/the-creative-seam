@@ -4,9 +4,9 @@ import { Logo } from "./Logo";
 export function SiteFooter() {
   return (
     <footer className="border-t border-border/60 mt-32">
-      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 py-20 grid gap-14 md:grid-cols-12">
+      <div className="mx-auto max-w-[1440px] px-6 lg:px-12 py-10 grid gap-14 md:grid-cols-12">
         <div className="md:col-span-5 space-y-6">
-          <Logo className="h-14" />
+          <Logo className="h-54" />
           <p className="text-sm leading-relaxed text-muted-foreground max-w-sm">
             A curated network where emerging brands meet the creatives who shape the way
             modern fashion is seen.
