@@ -1,10 +1,10 @@
-import { r as reactExports, V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
-import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
+import { r as reactExports, V as jsxRuntimeExports } from "./server-DapvtGDP.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-T0p6MEEH.js";
+import { S as SiteFooter } from "./SiteFooter-BYPJVZER.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./router-SgH2OmHM.js";
+import "./router-FRC8J7-H.js";
 const __iconNode$2 = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
 const Check = createLucideIcon("check", __iconNode$2);
 const __iconNode$1 = [
@@ -56,7 +56,7 @@ function NewCampaign() {
             /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { k: "Budget", v: "€8,000" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { k: "Dates", v: "Apr 12 → Apr 18" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { k: "Roles", v: "Photographer · Model" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { k: "Location", v: "Milan" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { k: "Location", v: "Antwerp" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "stitch-line" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-3", children: [
@@ -93,7 +93,7 @@ function BriefStep() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Project name", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, placeholder: "e.g. SS27 — Linen Story" }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-2 gap-10", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Budget (€)", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, type: "number", placeholder: "8000" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Location", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, placeholder: "Milan, IT" }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Location", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, placeholder: "Antwerp, BE" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Start date", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, type: "date" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "End date", children: /* @__PURE__ */ jsxRuntimeExports.jsx("input", { className: inputCls, type: "date" }) })
     ] }),

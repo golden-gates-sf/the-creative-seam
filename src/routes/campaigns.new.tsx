@@ -69,7 +69,7 @@ function NewCampaign() {
               <Row k="Budget" v="€8,000" />
               <Row k="Dates" v="Apr 12 → Apr 18" />
               <Row k="Roles" v="Photographer · Model" />
-              <Row k="Location" v="Milan" />
+              <Row k="Location" v="Antwerp" />
             </div>
             <div className="stitch-line" />
             <div className="flex gap-3">
@@ -122,7 +122,7 @@ function BriefStep() {
           <input className={inputCls} type="number" placeholder="8000" />
         </Field>
         <Field label="Location">
-          <input className={inputCls} placeholder="Milan, IT" />
+          <input className={inputCls} placeholder="Antwerp, BE" />
         </Field>
         <Field label="Start date">
           <input className={inputCls} type="date" />
