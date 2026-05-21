@@ -1,13 +1,13 @@
-import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
-import { L as Link, p as professionals } from "./router-SgH2OmHM.js";
-import { c as createLucideIcon, S as SiteHeader, l as logo } from "./SiteHeader-npx5tSz-.js";
-import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
-import { P as ProfileCard } from "./ProfileCard-Mo9z0dWP.js";
-import { S as Search } from "./search-Bf5aytNj.js";
+import { V as jsxRuntimeExports } from "./server-DapvtGDP.js";
+import { L as Link, p as professionals } from "./router-FRC8J7-H.js";
+import { c as createLucideIcon, S as SiteHeader, l as logo } from "./SiteHeader-T0p6MEEH.js";
+import { S as SiteFooter } from "./SiteFooter-BYPJVZER.js";
+import { P as ProfileCard } from "./ProfileCard-BJI9MSLs.js";
+import { S as Search } from "./search-yywYEhlJ.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./RatingBadge-DR_f1u3O.js";
+import "./RatingBadge-DsQF-FdA.js";
 const __iconNode$3 = [
   ["path", { d: "M5 12h14", key: "1ays0h" }],
   ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
@@ -87,8 +87,8 @@ function Index() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "img-zoom", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logo, alt: "Editorial fashion portrait", width: 1080, height: 1350, className: "size-full object-cover" }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute -bottom-6 left-1/2 -translate-x-1/2 hidden md:block bg-background border border-foreground p-5 max-w-[220px]", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Live now" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-3xl mt-2 leading-none", children: "2,481" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-tiny text-muted-foreground mt-1", children: "creatives in 38 cities" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-3xl mt-2 leading-none", children: "100" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-tiny text-muted-foreground mt-1", children: "creatives in 5 cities" })
           ] })
         ] })
       ] }) }),

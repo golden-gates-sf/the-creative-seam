@@ -1,6 +1,6 @@
-import { V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
-import { L as Link } from "./router-SgH2OmHM.js";
-import { L as Logo } from "./SiteHeader-npx5tSz-.js";
+import { V as jsxRuntimeExports } from "./server-DapvtGDP.js";
+import { L as Link } from "./router-FRC8J7-H.js";
+import { L as Logo } from "./SiteHeader-T0p6MEEH.js";
 function SiteFooter() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "border-t border-border/60 mt-32", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-[1440px] px-6 lg:px-12 py-10 grid gap-14 md:grid-cols-12", children: [
@@ -8,7 +8,7 @@ function SiteFooter() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Logo, { className: "h-54" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed text-muted-foreground max-w-sm", children: "A curated network where emerging brands meet the creatives who shape the way modern fashion is seen." }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "stitch-line w-40" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Estd 2026 — Milan" })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Estd 2026 — Leuven" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "md:col-span-2 space-y-4", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "label-eyebrow", children: "Discover" }),

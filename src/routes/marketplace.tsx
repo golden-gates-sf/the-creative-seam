@@ -19,7 +19,7 @@ export const Route = createFileRoute("/marketplace")({
 });
 
 const ROLES = ["All", "Photographer", "Model", "Stylist", "Makeup Artist", "Influencer"] as const;
-const LOCATIONS = ["Anywhere", "Milan", "Paris", "London", "Berlin", "Rome", "Florence"] as const;
+const LOCATIONS = ["Anywhere", "Antwerp", "Brussels", "Ghent", "Leuven"] as const;
 
 function Marketplace() {
   const [q, setQ] = useState("");

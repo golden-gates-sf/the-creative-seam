@@ -12,7 +12,7 @@ export function SiteFooter() {
             modern fashion is seen.
           </p>
           <div className="stitch-line w-40" />
-          <p className="label-eyebrow">Estd 2026 — Milan</p>
+          <p className="label-eyebrow">Estd 2026 — Leuven</p>
         </div>
 
         <div className="md:col-span-2 space-y-4">

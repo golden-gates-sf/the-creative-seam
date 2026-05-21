@@ -1,13 +1,13 @@
-import { r as reactExports, V as jsxRuntimeExports } from "./server-B4kp0_TF.js";
-import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-npx5tSz-.js";
-import { S as SiteFooter } from "./SiteFooter-sr1OXAVD.js";
-import { P as ProfileCard } from "./ProfileCard-Mo9z0dWP.js";
-import { p as professionals } from "./router-SgH2OmHM.js";
-import { S as Search } from "./search-Bf5aytNj.js";
+import { r as reactExports, V as jsxRuntimeExports } from "./server-DapvtGDP.js";
+import { c as createLucideIcon, S as SiteHeader } from "./SiteHeader-T0p6MEEH.js";
+import { S as SiteFooter } from "./SiteFooter-BYPJVZER.js";
+import { P as ProfileCard } from "./ProfileCard-BJI9MSLs.js";
+import { p as professionals } from "./router-FRC8J7-H.js";
+import { S as Search } from "./search-yywYEhlJ.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "./RatingBadge-DR_f1u3O.js";
+import "./RatingBadge-DsQF-FdA.js";
 const __iconNode = [
   ["path", { d: "M10 5H3", key: "1qgfaw" }],
   ["path", { d: "M12 19H3", key: "yhmn1j" }],
@@ -21,7 +21,7 @@ const __iconNode = [
 ];
 const SlidersHorizontal = createLucideIcon("sliders-horizontal", __iconNode);
 const ROLES = ["All", "Photographer", "Model", "Stylist", "Makeup Artist", "Influencer"];
-const LOCATIONS = ["Anywhere", "Milan", "Paris", "London", "Berlin", "Rome", "Florence"];
+const LOCATIONS = ["Anywhere", "Antwerp", "Brussels", "Ghent", "Leuven"];
 function Marketplace() {
   const [q, setQ] = reactExports.useState("");
   const [role, setRole] = reactExports.useState("All");

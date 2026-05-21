@@ -83,8 +83,8 @@ function Index() {
               </div>
               <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 hidden md:block bg-background border border-foreground p-5 max-w-[220px]">
                 <p className="label-eyebrow">Live now</p>
-                <p className="font-display text-3xl mt-2 leading-none">2,481</p>
-                <p className="label-tiny text-muted-foreground mt-1">creatives in 38 cities</p>
+                <p className="font-display text-3xl mt-2 leading-none">100</p>
+                <p className="label-tiny text-muted-foreground mt-1">creatives in 5 cities</p>
               </div>
             </div>
           </div>
